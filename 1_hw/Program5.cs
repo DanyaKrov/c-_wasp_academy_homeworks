@@ -4,7 +4,7 @@ namespace app1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //мкад
         {
 	    int x = Convert.ToInt32(Console.ReadLine());
 	    int y = Convert.ToInt32(Console.ReadLine());
