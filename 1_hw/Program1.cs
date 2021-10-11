@@ -4,7 +4,7 @@ namespace its_just_start
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //треугольник
         {
             int x = Convert.ToInt32(Console.ReadLine());
             int y = Convert.ToInt32(Console.ReadLine());
