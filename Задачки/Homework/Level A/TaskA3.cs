@@ -22,9 +22,16 @@ namespace Homework
     {
         public static int SumCube(int n, int m)
         {
-            // Здесь необходимо написать код.
-
-            return 0;
+            if (n > m) {
+                int num = m;
+                m = n; n = num;
+            }
+            int sum = 0, kol;
+            for (kol = n + 1; sum < m; kol++)
+            {
+                sum += kol * kol * kol;
+            }
+            return sum;
         }
     }
 }

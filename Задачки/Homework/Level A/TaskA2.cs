@@ -20,9 +20,13 @@ namespace Homework
     {
         public static bool VeryEven(int number)
         {
-            // Здесь необходимо написать код.
-
-            return false;
+            int sum = 0; //сумма цифр числа
+            do
+            {
+                sum += number % 10;
+                number /= 10;
+            } while (number > 9);
+            return (sum % 2 == 0);
         }
     }
 }

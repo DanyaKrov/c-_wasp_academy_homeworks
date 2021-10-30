@@ -19,9 +19,14 @@ namespace Homework
     {
         public static List<int> ArrayOfTiers(int number)
         {
-            // Здесь необходимо написать код.
-
-            return null;
+            List<int> list1 = new List<int>();
+            do
+            {
+                list1.Add(number);
+                number /= 10;
+            } while (number > 9);
+            list1.Reverse();
+            return list1;
         }
     }
 }

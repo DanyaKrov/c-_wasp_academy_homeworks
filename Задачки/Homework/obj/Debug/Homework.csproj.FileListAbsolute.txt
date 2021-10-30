@@ -12,3 +12,10 @@ C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\�
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.exe
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.pdb
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\bin\Debug\Homework.exe.config
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\bin\Debug\Homework.exe
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\bin\Debug\Homework.pdb
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\obj\Debug\Homework.csproj.AssemblyReference.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\obj\Debug\Homework.exe
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Задачки\Homework\obj\Debug\Homework.pdb
