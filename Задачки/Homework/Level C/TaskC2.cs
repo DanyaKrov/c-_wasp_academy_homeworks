@@ -21,9 +21,28 @@ namespace Homework
     {
         public static List<int> ChangeCent(double money)
         {
-            // Здесь необходимо написать код.
-
-            return null;
+            List<int> list = new List<int> { 0, 0, 0, 0};
+            do
+            {
+                money -= 25;
+                list[3] += 1;
+            } while (money > 25);
+            do
+            {
+                money -= 10;
+                list[2] += 1;
+            } while (money > 10);
+            do
+            {
+                money -= 5;
+                list[1] += 1;
+            } while (money > 5);
+            do
+            {
+                money -= 1;
+                list[0] += 1;
+            } while (money > 1);
+            return list;
         }
     }
 }

@@ -19,9 +19,23 @@ namespace Homework
     {
         public static bool CheckBrackets(string s)
         {
-            // Здесь необходимо написать код.
-
-            return false;
+            int check1 = 0, check2 = 0, check3 = 0;
+            foreach(char i in s)
+            {
+                if (String.Equals(i, "("))
+                    check1++;
+                if (String.Equals(i, ")"))
+                    check1--;
+                if (String.Equals(i, "{"))
+                    check2++;
+                if (String.Equals(i, "}"))
+                    check2--;
+                if (String.Equals(i, "<"))
+                    check3++;
+                if (String.Equals(i, ">"))
+                    check3--;
+            }
+            return (check1 == 0 && check2 == 0 && check3 == 0);
         }
     }
 }

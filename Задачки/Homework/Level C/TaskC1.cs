@@ -27,9 +27,20 @@ namespace Homework
     {
         public static List<int> AppleShare(int N)
         {
-            // Здесь необходимо написать код.
-
-            return null;
+            int max, place;
+            List<int> list = new List<int> {0, 0, 0, 0, 0, 0};
+            for (int j = 0; j < N; j++)
+            {
+                place = 0;
+                max = 0;
+                for(int i = 5; i > 0; i--)
+                {
+                    if (i / (list[i] + 1) >= max)
+                        max = i / list[i]; place = i;
+                }
+                list[place] += 1;
+            }
+            return list;
         }
     }
 }

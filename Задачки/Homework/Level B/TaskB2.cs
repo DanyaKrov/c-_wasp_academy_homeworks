@@ -20,9 +20,31 @@ namespace Homework
     {
         public static List<int> OrderWeight(List<int> list)
         {
-            // Здесь необходимо написать код.
-
-            return null;
+            int x, sum1, sum2, number1, number;
+            for (int i = 0; i < list.Count; i++)
+            {
+                for (int j = i + 1; j < list.Count; j++)
+                {
+                    number1 = list[i]; number = list[j]; sum1 = 0; sum2 = 0;
+                    do
+                    {
+                        sum1 += number1 % 10;
+                        number1 /= 10;
+                    } while (number1 > 9);
+                    do
+                    {
+                        sum2 += number % 10;
+                        number /= 10;
+                    } while (number > 9);
+                    if (sum1 > sum2)
+                    {
+                        x = list[i];
+                        list[i] = list[j];
+                        list[j] = x;
+                    }
+                }
+            }
+            return list;
         }
     }
 }

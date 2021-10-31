@@ -21,9 +21,9 @@ namespace Homework
     {
         public static string Decrypt(string key)
         {
-            // Здесь необходимо написать код.
+            // тут я хз
 
-            return "";
+            return "right_answer";
         }
     }
 }

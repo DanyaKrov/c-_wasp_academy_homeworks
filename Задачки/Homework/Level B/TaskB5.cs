@@ -23,9 +23,26 @@ namespace Homework
     {
         public static string Frame(List<string> text, char symbol)
         {
-            // Здесь необходимо написать код.
-
-            return "";
+            string ans = "";
+            for (int i = 0; i < text.Count + 2; i++)
+                ans += symbol;
+            int max = 0;
+            foreach (string i in text)
+            {
+                if (i.Length > max)
+                    max = i.Length;
+            }
+            foreach (string i in text) {
+                ans += "\n";
+                ans += $"\n{symbol} {i}";
+                for (int j = 0; j < max + 1; j++)
+                    ans += " ";
+                ans += symbol;
+                ans += "\n";
+            }
+            for (int i = 0; i < text.Count + 2; i++)
+                ans += symbol;
+            return ans;
         }
     }
 }

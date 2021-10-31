@@ -18,8 +18,16 @@ namespace Homework
     {
         public static string Reverser(string s)
         {
-            // Здесь необходимо написать код.
-
+            string ans = "";
+            char[] mas;
+            string[] list1 = s.Split(' ');
+            foreach(string i in list1)
+            {
+                mas = i.ToCharArray();
+                mas.Reverse();
+                ans += $"{mas.ToString()} ";
+            }
+            ans = ans.Remove(ans.Length - 1);
             return "";
         }
     }
