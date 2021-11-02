@@ -21,11 +21,12 @@ namespace Homework
     {
         public static int NumberOfSquares(int limit)
         {
-            int sum = 0, kol;
-            for (kol = 1; sum < limit; kol++){
+            int sum = 0, kol = 1;
+            do{
+                kol++;
                 sum += kol * kol;
-            }
-            return kol;
+            }while(sum < limit);
+            return kol - 1;
         }
     }
 }
