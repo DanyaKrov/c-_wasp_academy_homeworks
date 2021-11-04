@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,11 +20,11 @@ namespace Homework
     {
         public static bool VeryEven(int number)
         {
-            int sum = 0; //сумма цифр числа
+            int sum = number % 10; //сумма цифр числа
             do
             {
-                sum += number % 10;
                 number /= 10;
+                sum += number % 10;
             } while (number > 9);
             return (sum % 2 == 0);
         }
