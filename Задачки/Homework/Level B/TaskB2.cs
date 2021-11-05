@@ -36,7 +36,7 @@ namespace Homework
                         number /= 10;
                         sum2 += number % 10;
                     } while (number > 9);
-                    if (sum1 > sum2 || sum1 == sum2 && string.Compare(list[i].ToString(), list[j].ToString()) < 0)
+                    if (sum1 > sum2 || sum1 == sum2 && string.Compare(list[i].ToString(), list[j].ToString()) > 0)
                     {
                         x = list[i];
                         list[i] = list[j];
@@ -48,4 +48,3 @@ namespace Homework
         }
     }
 }
-
