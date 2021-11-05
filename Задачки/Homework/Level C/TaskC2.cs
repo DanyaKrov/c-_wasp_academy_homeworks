@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,27 +21,28 @@ namespace Homework
     {
         public static List<int> ChangeCent(double money)
         {
+            money = Math.Floor(money);
             List<int> list = new List<int> { 0, 0, 0, 0};
-            do
+            while (money >= 25)
             {
                 money -= 25;
                 list[3] += 1;
-            } while (money > 25);
-            do
+            }
+            while (money >= 10)
             {
                 money -= 10;
                 list[2] += 1;
-            } while (money > 10);
-            do
+            }
+            while (money >= 5)
             {
                 money -= 5;
                 list[1] += 1;
-            } while (money > 5);
-            do
+            }
+            while (money >= 1)
             {
                 money -= 1;
                 list[0] += 1;
-            } while (money > 1);
+            }
             return list;
         }
     }
