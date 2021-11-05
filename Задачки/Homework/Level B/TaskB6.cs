@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,16 +19,29 @@ namespace Homework
         public static string Reverser(string s)
         {
             string ans = "";
-            char[] mas;
-            string[] list1 = s.Split(' ');
-            foreach(string i in list1)
+            int number = 0;
+            for (int i = 0; i < s.Length; i++)
             {
-                mas = i.ToCharArray();
-                mas.Reverse();
-                ans += $"{mas.ToString()} ";
+                number = i;
+                if (s[i] != ' ')
+                {
+                    while (number < s.Length - 1 && s[number] != ' ')
+                    {
+                        number++;
+                    }
+                    if (s[number] == ' ')
+                        number--;
+                    for (int _ = number; _ >= i; _--)
+                    {
+                        ans += s[_];
+                    }
+                    i = number;
+                }
+                else
+                    ans += " ";
+
             }
-            ans = ans.Remove(ans.Length - 1);
-            return "";
+            return ans;
         }
     }
 }
