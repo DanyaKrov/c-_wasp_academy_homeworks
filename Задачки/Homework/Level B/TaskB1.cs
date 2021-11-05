@@ -25,7 +25,7 @@ namespace Homework
             double sum = 0;
             for (int i = 0; i < list1.Count; i++)
             {
-                sum += Math.Pow((Math.Abs(list1[i]) - Math.Abs(list2[i])), 2);
+                sum += Math.Pow((list1[i] - list2[i]), 2);
             }
             return sum / list1.Count;
         }
