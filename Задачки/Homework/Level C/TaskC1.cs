@@ -32,12 +32,12 @@ namespace Homework
             for (int j = 0; j < N; j++)
             {
                 place = 0;
-                max = int.MinValue;
+                max = (double)int.MinValue;
                 for (int i = 5; i >= 0; i--)
                 {
-                    if ((i + 1) / (list[i] + 1) >= max)
+                    if ((double)(i + 1) / (double)(list[i] + 1) >= max)
                     {
-                        max = (i + 1) / (list[i] + 1);
+                        max = (double)(i + 1) / (double)(list[i] + 1);
                         place = i;
                     }
                 }
