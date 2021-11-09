@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,18 +25,18 @@ namespace Homework
             {
                 for (int j = i + 1; j < list.Count; j++)
                 {
-                    number1 = list[i]; number = list[j]; sum1 = 0; sum2 = 0;
+                    number1 = list[i]; number = list[j]; sum1 = number1 % 10; sum2 = number % 10;
                     do
                     {
-                        sum1 += number1 % 10;
                         number1 /= 10;
+                        sum1 += number1 % 10;
                     } while (number1 > 9);
                     do
                     {
-                        sum2 += number % 10;
                         number /= 10;
+                        sum2 += number % 10;
                     } while (number > 9);
-                    if (sum1 > sum2)
+                    if (sum1 > sum2 || sum1 == sum2 && string.Compare(list[i].ToString(), list[j].ToString()) > 0)
                     {
                         x = list[i];
                         list[i] = list[j];

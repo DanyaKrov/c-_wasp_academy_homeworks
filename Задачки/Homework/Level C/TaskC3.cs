@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,13 +24,14 @@ namespace Homework
     {
         public static int Movie(int card, int ticket, double perc)
         {
-            int ans = 0; double cost1 = 0, cost2 = card;
+            int ans = 0; double cost1 = 0, cost2 = card, ticket1 = ticket;
             do
             {
-                cost1 += ticket; cost2 += ticket * perc;
+                ticket1 = ticket1 * perc;
+                cost1 += ticket; cost2 += ticket1;
                 ans++;
 
-            } while (cost1 < cost2);
+            } while (cost1 <= cost2);
             return ans;
         }
     }

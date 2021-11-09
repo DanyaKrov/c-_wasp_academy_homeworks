@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,16 +27,19 @@ namespace Homework
     {
         public static List<int> AppleShare(int N)
         {
-            int max, place;
-            List<int> list = new List<int> {0, 0, 0, 0, 0, 0};
+            double max; int place;
+            List<int> list = new List<int> { 0, 0, 0, 0, 0, 0 };
             for (int j = 0; j < N; j++)
             {
                 place = 0;
-                max = 0;
-                for(int i = 5; i > 0; i--)
+                max = (double)int.MinValue;
+                for (int i = 5; i >= 0; i--)
                 {
-                    if (i / (list[i] + 1) >= max)
-                        max = i / list[i]; place = i;
+                    if ((double)(i + 1) / (double)(list[i] + 1) >= max)
+                    {
+                        max = (double)(i + 1) / (double)(list[i] + 1);
+                        place = i;
+                    }
                 }
                 list[place] += 1;
             }
