@@ -2,15 +2,29 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Metro1
+public class Metro
 {
-    class Metro
+    public string city;
+    public List<Line> lines;
+    public Metro(string city)
     {
-        static void Main(string[] args)
+        this.city = city;
+    }
+    public string GetCity()
+    {
+        return city;
+    }
+    public void AddLine(string name, string color)
+    {
+        lines.Add(new Line(name, color));
+    }
+    public void RemoveLine(string name)
+    {
+        foreach (Line i in lines)
         {
-            Console.WriteLine("Hello World!");
+            if (i.name == name)
+                lines.Remove(i);
         }
     }
 }
