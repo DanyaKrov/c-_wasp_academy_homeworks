@@ -106,6 +106,7 @@ namespace Car_park
                     {
                         ans += $"{car.TransToString()}\n";
                     }
+                    ans += "Грузовые машины: \n";
                     foreach (Truck truck in Trucks)
                     {
                         ans += $"{truck.TransToString()}\n";
