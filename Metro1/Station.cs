@@ -19,7 +19,11 @@ public class Station
     }
     public Station(string name, string color, List<Station> transfers)
     {
-        this.name = name; this.color = color; this.transfers = transfers;
+        this.name = name; this.color = color;
+        for (int i = 0; i < transfers.Count; i++)
+        {
+            this.transfers[i] = transfers[i];
+        }
     }
     public string GetName()
     {

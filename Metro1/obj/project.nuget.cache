@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RUKvApymIHHqnqCJ6V/GBTdCCISZ0l7gu9V3YfCEcllvTYo+pTRjle+e0QKiw6twCmvWNQyW4KpOsKVBiGR9sA==",
+  "dgSpecHash": "M20PBdN+9M86K08vC5l2QlS1ZyoeOcj90Q1Nm0nxEntStgg28xc4dP3d5UIl/F3OVZQSapzDxq4GsKiesfitwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Danya\\Documents\\GitHub\\c-_wasp_academy_homeworks\\Metro1\\Metro1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Danya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
