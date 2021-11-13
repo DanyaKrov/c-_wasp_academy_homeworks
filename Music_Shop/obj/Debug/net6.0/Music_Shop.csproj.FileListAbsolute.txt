@@ -1,0 +1,15 @@
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\Music_Shop.exe
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\Music_Shop.deps.json
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\Music_Shop.runtimeconfig.json
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\Music_Shop.dll
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\ref\Music_Shop.dll
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\bin\Debug\net6.0\Music_Shop.pdb
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.csproj.AssemblyReference.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.AssemblyInfoInputs.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.AssemblyInfo.cs
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.csproj.CoreCompileInputs.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.dll
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\ref\Music_Shop.dll
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.pdb
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\Music_Shop\obj\Debug\net6.0\Music_Shop.genruntimeconfig.cache
