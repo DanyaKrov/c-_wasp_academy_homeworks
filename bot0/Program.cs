@@ -23,7 +23,7 @@ namespace Bot0
 
                 client.Log += LogAsync;
                 services.GetRequiredService<CommandService>().Log += LogAsync;
-                await client.LoginAsync(TokenType.Bot, ("OTEyNzU1NDc3OTM3NTQxMjIw.YZ0jyA.bnm48HtUznMCCZMNHyz1xYVV0ic"));
+                await client.LoginAsync(TokenType.Bot, (""));
                 await client.StartAsync();
                 await services.GetRequiredService<CommandHandlingService>().InitializeAsync();
                 await Task.Delay(Timeout.Infinite);
