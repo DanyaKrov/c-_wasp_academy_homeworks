@@ -1,0 +1,16 @@
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\bin\Debug\WPF0.exe.config
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\bin\Debug\WPF0.exe
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\bin\Debug\WPF0.pdb
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.csproj.AssemblyReference.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.csproj.SuggestedBindingRedirects.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\MainWindow.g.cs
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\App.g.cs
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0_MarkupCompile.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0_MarkupCompile.lref
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\MainWindow.baml
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.g.resources
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.Properties.Resources.resources
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.csproj.GenerateResource.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.csproj.CoreCompileInputs.cache
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.exe
+C:\Users\Danya\Documents\GitHub\c-_wasp_academy_homeworks\WPF0\obj\Debug\WPF0.pdb
