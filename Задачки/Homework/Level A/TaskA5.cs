@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +25,6 @@ namespace Homework
                 list1.Add(number);
                 number /= 10;
             } while (number > 9);
-            list1.Add(number);
             list1.Reverse();
             return list1;
         }

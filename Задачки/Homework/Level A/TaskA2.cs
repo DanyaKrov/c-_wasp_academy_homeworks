@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,21 +18,14 @@ namespace Homework
     // VeryEven(222) => true -> 2 + 2 + 2 = 8 => 8 - четное.
     public static class TaskA2
     {
-        public static int Sum(int number)
-        {
-            int sum = number % 10; //сумма цифр числа
-            do
-            {
-                number /= 10;
-                sum += number % 10;
-            } while (number > 9);
-            if (sum >= 10)
-                sum = Sum(sum);
-            return sum;
-        }
         public static bool VeryEven(int number)
         {
-            int sum = Sum(number);
+            int sum = 0; //сумма цифр числа
+            do
+            {
+                sum += number % 10;
+                number /= 10;
+            } while (number > 9);
             return (sum % 2 == 0);
         }
     }

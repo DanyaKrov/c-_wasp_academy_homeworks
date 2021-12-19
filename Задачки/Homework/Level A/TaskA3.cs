@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +27,7 @@ namespace Homework
                 m = n; n = num;
             }
             int sum = 0, kol;
-            for (kol = n + 1; kol < m + 1; kol++)
+            for (kol = n + 1; sum < m; kol++)
             {
                 sum += kol * kol * kol;
             }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,16 +21,9 @@ namespace Homework
     {
         public static string Decrypt(string key)
         {
-            int[] list1 = new int[26];
-            string ans = "";
-            foreach (int j in key)
-            {
-                if (j < 123 && j > 96)
-                    list1[j - 97] += 1;
-            }
-            foreach (int i in list1) 
-                ans += i;
-            return ans;
+            // тут я хз
+
+            return "right_answer";
         }
     }
 }

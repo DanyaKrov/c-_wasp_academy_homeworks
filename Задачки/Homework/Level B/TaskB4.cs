@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,8 +34,6 @@ namespace Homework
                     check3++;
                 if (String.Equals(i, ">"))
                     check3--;
-                if (check1 < 0 || check2 < 0 || check3 < 0)
-                    return false;
             }
             return (check1 == 0 && check2 == 0 && check3 == 0);
         }
