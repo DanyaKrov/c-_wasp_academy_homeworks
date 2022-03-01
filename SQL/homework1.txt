@@ -1,12 +1,12 @@
 CREATE TABLE 'users' ('id' INTEGER PRIMARY KEY, 'surname' TEXT, 'name' TEXT, 'patronymic' TEXT, 'birth' DATETIME);
-INSERT INTO users VALUES (1, 'Сергеев', 'Сергеей', 'Сергеевич', '27-05-2001');
-INSERT INTO users (name) VALUES ("Олег");
-SELECT * FROM users WHERE name = 'Павел';
+INSERT INTO users VALUES ("РЎРµСЂРіРµРµРІ", "РЎРµСЂРіРµР№", "РЎРµСЂРіРµРµРІРёС‡", '27-05-2001');
+INSERT INTO users (name) VALUES ("РћР»РµРі");
+SELECT * FROM users WHERE name = "РџР°РІРµР»";
 SELECT * FROM users WHERE id > 2;
 SELECT * FROM users WHERE id BETWEEN 6 AND 10;
-SELECT * FROM users WHERE surname = 'Павлов' AND name = 'Павел' 
+SELECT * FROM users WHERE surname = "РџР°РІР»РѕРІ" AND name = "РџР°РІРµР»"
 AND id BETWEEN 6 AND 10;
-SELECT DISTINCT * FROM users WHERE surname = 'Жданов';
+SELECT DISTINCT * FROM users WHERE surname = "Р–РґР°РЅРѕРІ";
 SELECT name, surname FROM users;
 DELETE FROM users;
 Drop TABLE users;
